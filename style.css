@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+strong {
+    color: #22D4FD;
+}
+
+a {
+    color: #f6f6f6;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.texto {
+  flex: 1;
+  text-align: left;
+}
+
+img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 10px 0 0;
+  background-color: #22D4FD;
+  border: 2px solid #22D4FD;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: transparent;
+  color: #22D4FD;
+}
