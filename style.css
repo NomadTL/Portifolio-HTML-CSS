@@ -52,8 +52,8 @@ body{
     font-size: 24px;
 }
 
-.apresentacao__links__link{
-    background-color:#000000;
+.apresentacao__links__link {
+    background-color: #000000;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -64,10 +64,16 @@ body{
     text-decoration: none;
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
-}
-.apresentacao__links__link:hover {
-    background-color: #22D4FD;
-    color: #000000;
-    border: 2px solid #22D4FD; 
+
+    display: inline-flex;           
+    align-items: center;          
+    justify-content: center;       
+    gap: 20px;                    
     transition: 0.3s;
+}
+
+.apresentacao__links__link:hover {
+    background-color: transparent;
+    color: #22D4FD;
+    border: 2px solid #22D4FD; 
 }
