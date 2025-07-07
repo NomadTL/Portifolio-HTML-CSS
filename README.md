@@ -1,21 +1,36 @@
-# Portfólio Pessoal com HTML e CSS
+# Portfólio de Thiago Lima
 
-Este é um projeto simples de página de portfólio desenvolvido com HTML e CSS. Ele apresenta uma introdução pessoal, com texto alinhado à esquerda e uma imagem ao lado direito, além de botões estilizados com links para redes sociais.
+Bem-vindo ao meu portfólio online! Aqui você encontra uma apresentação clara e profissional sobre mim, minhas habilidades e formas de contato, tudo desenvolvido com foco em Front-end moderno.
 
-## 💡 Funcionalidades
+---
 
-- ✅ Estruturação semântica com HTML5
-- ✅ Estilização com CSS3
-- ✅ Layout responsivo usando Flexbox
-- ✅ Botões personalizados com cor de destaque (#22D4FD)
-- ✅ Links para redes sociais (Instagram e GitHub)
-- ✅ Imagem de apresentação
+## Sobre o Projeto
 
-## 🛠️ Tecnologias utilizadas
+Este portfólio foi criado para apresentar meu trabalho como desenvolvedor Front-end, destacando minhas principais habilidades, experiência e redes sociais. O design é moderno, responsivo e com foco na melhor experiência para o usuário.
 
-- HTML5
-- CSS3
-- Flexbox
+---
+
+## Tecnologias Utilizadas
+
+- **HTML5** — Estrutura semântica do site
+- **CSS3** — Estilização customizada, incluindo variáveis CSS e responsividade
+- **Google Fonts** — Fontes 'Montserrat' e 'Krona One' para uma tipografia elegante
+- **Git & GitHub** — Controle de versão e hospedagem do código
+- **Ferramentas futuras** — React (estudo em andamento para evolução do projeto)
+
+---
+
+## Próximos Passos
+
+-Integrar React para componentes dinâmicos e reativos
+
+-Adicionar mais páginas, como portfólio de projetos e blog
+
+-Otimizar imagens e performance geral
+
+-Implementar formulário de contato funcional
+
+
 
 ## 📁 Link para visualizar o projeto!!
 https://portifolio-html-css-sigma.vercel.app/
