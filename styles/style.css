@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: var(--cor-texto);
+    cursor: pointer;
+}
+
 :root {
     --cor-primaria: #121212;
     --cor-secundaria: #1A1A1A;
@@ -308,5 +317,43 @@ a:focus {
     .apresentacao__conteudo {
         width: 100%;
         gap: 24px;
+    }
+}
+
+.cabecalho__menu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 60px;
+    right: 10%;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.cabecalho__menu.aberto {
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .cabecalho__menu {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        gap: 3rem;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .menu-toggle {
+        display: none;
     }
 }

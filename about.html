@@ -11,11 +11,15 @@
 
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
+        <nav class="cabecalho__menu" id="menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
         </nav>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+            ☰
+        </button>
     </header>
+
     <main class="apresentacao">
         <section class="apresentacao__conteudo sobre-mim fade-in">
             <h1 class="apresentacao__conteudo__titulo">Sobre Mim<strong class="titulo-destaque">
@@ -53,6 +57,7 @@
             </p>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
