@@ -22,6 +22,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .titulo-destaque {
     color: var(--cor-terceira);
 }
@@ -171,6 +175,11 @@ ul li {
     transition: color 0.3s;
 }
 
+a:focus {
+    outline: 2px dashed var(--cor-terceira);
+    outline-offset: 4px;
+}
+
 .email-link:hover {
     color: var(--cor-terceira);
     text-decoration: underline;
@@ -207,7 +216,18 @@ ul li {
 
 .habilidades__lista li:hover {
     background-color: var(--cor-terceira);
+    filter: brightness(1.1);
     cursor: default;
+}
+
+
+.destaque-final {
+    border-left: 4px solid var(--cor-final);
+    background-color: var(--cor-secundaria);
+    padding: 16px;
+    margin-top: 20px;
+    font-style: italic;
+    color: #cbd5e1;
 }
 
 .sobre-mim {
@@ -241,6 +261,19 @@ ul li {
     color: var(--cor-terceira);
 }
 
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
@@ -265,5 +298,15 @@ ul li {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .apresentacao__imagem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+        gap: 24px;
     }
 }
